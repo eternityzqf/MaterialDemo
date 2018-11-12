@@ -93,8 +93,6 @@ public abstract class DefaultAdapter<T> extends RecyclerView.Adapter<RecyclerVie
         if (true) {
             notifyDataSetChanged();
         }
-
-
     }
 
 

@@ -30,13 +30,15 @@ public class MaterialViewPager2 extends AppCompatActivity {
         // 第一步，初始化ViewPager和TabLayout
         mViewPager = findViewById(R.id.viewpager);
         mTabLayout = findViewById(R.id.tabs);
-        mToolbar=  findViewById(R.id.toolbar);
+        mToolbar = findViewById(R.id.toolbar);
         mToolbar.setTitle("唐嫣");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         setupViewPager();
+
+
     }
 
     private void setupViewPager() {
